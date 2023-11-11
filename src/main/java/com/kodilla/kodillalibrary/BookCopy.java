@@ -14,6 +14,13 @@ public class BookCopy {
 
     private String status;
 
+    public BookCopy(Long id, Title title, String status) {
+    }
+
+    public BookCopy() {
+
+    }
+
     public Long getId() {
         return id;
     }

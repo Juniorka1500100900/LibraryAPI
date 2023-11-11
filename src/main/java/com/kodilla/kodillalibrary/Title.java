@@ -14,6 +14,14 @@ public class Title {
     private String author;
     private int publicationYear;
 
+    public Title(Long id, String titleName, String author, int publicationYear) {
+
+    }
+
+    public Title() {
+
+    }
+
 
     public Long getId() {
         return id;

@@ -20,6 +20,14 @@ public class Loan {
     private LocalDate loanDate;
     private LocalDate returnDate;
 
+    public Loan(Long id, BookCopy bookCopy, Reader reader, LocalDate loanDate, LocalDate returnDate) {
+
+    }
+
+    public Loan() {
+
+    }
+
 
     public Long getId() {
         return id;

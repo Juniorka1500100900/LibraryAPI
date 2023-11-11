@@ -57,4 +57,9 @@ public class LibraryController {
     public Loan returnBook(@PathVariable Long id) {
         return loanService.returnBook(id);
     }
+
+    @PostMapping("/addUser")
+    public Reader addUser(@RequestBody Reader reader) {
+        return readerService.addReader(reader);
+    }
 }
